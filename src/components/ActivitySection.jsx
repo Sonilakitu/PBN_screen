@@ -22,6 +22,8 @@ function ActivitySection() {
     action.event_type.includes(filterEventType)
   );
 
+  
+  
   // Handle filter changes
   const handleEventTypeFilterChange = (event) => {
     setFilterEventType(event.target.value);
